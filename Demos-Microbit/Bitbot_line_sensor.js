@@ -1,12 +1,17 @@
-// Crude demo for the line sensor, based on example on http://4tronix.co.uk/blog/?p=1490
 
-// Caveat, from 4tronix page: 
-// The idea of these sensors is that you create a black, non - reflective, line on an otherwise reflective surface.
-// You can then program the Bit: Bot to follow the line. The best way to get a good line is to print a track on a
-// laser printer.We use these printable tiles which are excellent basic.
+// Crude demo for the line sensor, based on example on
+// http://4tronix.co.uk/blog/?p=1490 Caveat, from
+// 4tronix page: The idea of these sensors is that you
+// create a black, non - reflective, line on an
+// otherwise reflective surface.You can then program
+// the Bit: Bot to follow the line. The best way to
+// get a good line is to print a track on a laser
+// printer.We use these printable tiles which are
+// excellent
 
-forever(function () {
-    bitbot.select_model(bitbot.BBModels(BBModel.XL))
+bitbot.select_model(bitbot.BBModels(BBModel.XL))
+
+basic.forever(function () {
     if (bitbot.readLine(BBLineSensor.Left) == 1) {
         bitbot.neoSetColor(bitbot.BBColours(BBColors.Black))
         bitbot.neoSetPixelColor(5, bitbot.BBColours(BBColors.Red))
@@ -20,3 +25,4 @@ forever(function () {
         bitbot.drive(200)
     }
 })
+
