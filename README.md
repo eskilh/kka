@@ -5,3 +5,5 @@
 
 ### Line sensor
 * [Example code in editor](https://makecode.microbit.org/_2ao8EKWXxXCd)
+* [javascript code](Demos-Microbit/Bitbot_line_sensor.js)
+
