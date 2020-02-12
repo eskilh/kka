@@ -8,6 +8,12 @@
 * [javascript code](Demos-Microbit/Bitbot_line_sensor.js)
 
 ### Light sensor
-* 
+* [Work in progress code in editor](https://makecode.microbit.org/_bTeXdp46a92h)
 
 ### Ultrasonic sensor
+* N/A
+
+
+# Lær Kidsa Koding
+* [Courses](https://oppgaver.kidsakoder.no/)
+
